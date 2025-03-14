@@ -1,0 +1,64 @@
+/* Custom styles for the company landing page */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif; /* Set a clean font for the page */
+    line-height: 1.6; /* Improve readability */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Header Styles */
+header {
+    background-color: lightblue; /* Light background for header */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add slight shadow to header */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Make the brand name bold */
+    font-size: 1.5rem; /* Increase font size for brand name */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px; /* Add padding around main content */
+    text-align: center; /* Center text in the main section */
+    background-color: lightseagreen;
+}
+
+h1 {
+    font-size: 2.5rem; /* Increase size of main heading */
+    margin: 20px 0; /* Add margin to top and bottom of heading */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40; /* Dark background for footer */
+    color: #ffffff; /* White text for footer */
+    padding: 15px 0; /* Padding for footer */
+}
+
+footer p {
+    margin: 0; /* Remove default margin from paragraph */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    main {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    h1 {
+        font-size: 2rem; /* Reduce heading size for smaller screens */
+    }
+}
+.navbar,
+.hero,
+.services,
+.about,
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
